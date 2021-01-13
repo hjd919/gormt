@@ -4,15 +4,15 @@ import (
 	"fmt"
 	"testing"
 
+	"github.com/hjd919/gormt/data/view/genfunc/model"
 	"github.com/jinzhu/gorm"
-	"github.com/xxjwxc/gormt/data/view/genfunc/model"
 
 	_ "github.com/go-sql-driver/mysql"
 	"github.com/xxjwxc/public/mysqldb"
 )
 
 /**
-测试数据库地址:https://github.com/xxjwxc/gormt/blob/master/data/view/genfunc/model/matrix.sql
+测试数据库地址:https://github.com/hjd919/gormt/blob/master/data/view/genfunc/model/matrix.sql
 */
 
 func GetGorm(dataSourceName string) *gorm.DB {

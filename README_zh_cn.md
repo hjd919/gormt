@@ -1,9 +1,9 @@
 [![Build Status](https://travis-ci.org/xxjwxc/gormt.svg?branch=master)](https://travis-ci.org/xxjwxc/gormt)
-[![Go Report Card](https://goreportcard.com/badge/github.com/xxjwxc/gormt)](https://goreportcard.com/report/github.com/xxjwxc/gormt)
-[![GoDoc](https://godoc.org/github.com/xxjwxc/gormt?status.svg)](https://godoc.org/github.com/xxjwxc/gormt)
+[![Go Report Card](https://goreportcard.com/badge/github.com/hjd919/gormt)](https://goreportcard.com/report/github.com/hjd919/gormt)
+[![GoDoc](https://godoc.org/github.com/hjd919/gormt?status.svg)](https://godoc.org/github.com/hjd919/gormt)
 [![Mentioned in Awesome Go](https://awesome.re/mentioned-badge.svg)](https://github.com/avelino/awesome-go) 
 
-# [gorm-tools](https://github.com/xxjwxc/gormt)
+# [gorm-tools](https://github.com/hjd919/gormt)
 
 --------
 
@@ -30,10 +30,10 @@
 ## 安装
 
 ```
-go get -u -v github.com/xxjwxc/gormt@master
+go get -u -v github.com/hjd919/gormt@master
 ```
 
-或者: [下载地址](https://github.com/xxjwxc/gormt/releases)
+或者: [下载地址](https://github.com/hjd919/gormt/releases)
 
 ## 1. 通过当前目录 config.yml 文件配置默认配置项
 ```
@@ -100,14 +100,14 @@ Flags:
 - 数据库表,列字段注释支持
 - singular_table 表名复数(大驼峰)
 - json tag json标签输出
-- gorm.Model 基本模型   [支持gorm.Model模式导出>>>](https://github.com/xxjwxc/gormt/tree/master/doc/export_cn.md)
+- gorm.Model 基本模型   [支持gorm.Model模式导出>>>](https://github.com/hjd919/gormt/tree/master/doc/export_cn.md)
 - PRIMARY_KEY	将列指定为主键
 - UNIQUE	将列指定为唯一
 - NOT NULL	将列指定为非 NULL
 - INDEX	创建具有或不带名称的索引, 如果多个索引同名则创建复合索引
 - UNIQUE_INDEX	和 INDEX 类似，只不过创建的是唯一索引
-- 支持外键相关属性 [简单带外键模式导出>>>](https://github.com/xxjwxc/gormt/tree/master/doc/export_cn.md)
-- 支持函数导出(包括:外键，关联体，索引关...)[简单函数导出示例>>>](https://github.com/xxjwxc/gormt/blob/master/data/view/genfunc/genfunc_test.go)
+- 支持外键相关属性 [简单带外键模式导出>>>](https://github.com/hjd919/gormt/tree/master/doc/export_cn.md)
+- 支持函数导出(包括:外键，关联体，索引关...)[简单函数导出示例>>>](https://github.com/hjd919/gormt/blob/master/data/view/genfunc/genfunc_test.go)
 - 支持默认值default 
 
 ### 您可以在这里丰富数据映射类型 [def](data/view/cnf/def.go) 。
@@ -152,7 +152,7 @@ type UserAccountTbl struct {
 }
 ```
 
-### [更多>>>](https://github.com/xxjwxc/gormt/tree/master/doc/export_cn.md)
+### [更多>>>](https://github.com/hjd919/gormt/tree/master/doc/export_cn.md)
 
 ## 6. 支持函数导出(导出函数只是 gorm 的辅助类函数，完全兼调用 gorm)
 
@@ -176,9 +176,9 @@ func (obj *_UserAccountTblMgr) FetchByPrimaryKey(ID int) (result UserAccountTbl,
 
 ```
 
-### [更多>>>](https://github.com/xxjwxc/gormt/tree/master/doc/func_cn.md)
+### [更多>>>](https://github.com/hjd919/gormt/tree/master/doc/func_cn.md)
 
-### [函数调用示例>>>](https://github.com/xxjwxc/gormt/blob/master/data/view/genfunc/genfunc_test.go)
+### [函数调用示例>>>](https://github.com/hjd919/gormt/blob/master/data/view/genfunc/genfunc_test.go)
 
 ## 7. 构建
 ```
@@ -219,7 +219,7 @@ CHCP 65001
 
 ![图片描述](/image/gormt/4.jpg)
 
-[下载地址](https://github.com/xxjwxc/gormt/releases/download/v0.3.8/v1.0.zip)
+[下载地址](https://github.com/hjd919/gormt/releases/download/v0.3.8/v1.0.zip)
 
 
 - ###### [传送门](https://xxjwxc.github.io/post/gormtools/)

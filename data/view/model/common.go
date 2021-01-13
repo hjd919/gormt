@@ -7,9 +7,9 @@ import (
 	"strings"
 	"text/template"
 
-	"github.com/xxjwxc/gormt/data/config"
-	"github.com/xxjwxc/gormt/data/view/cnf"
-	"github.com/xxjwxc/gormt/data/view/genfunc"
+	"github.com/hjd919/gormt/data/config"
+	"github.com/hjd919/gormt/data/view/cnf"
+	"github.com/hjd919/gormt/data/view/genfunc"
 	"github.com/xxjwxc/public/mybigcamel"
 	"github.com/xxjwxc/public/tools"
 )
@@ -68,7 +68,7 @@ func getTypeName(name string, isNull bool) string {
 		}
 	}
 
-	panic(fmt.Sprintf("type (%v) not match in any way.maybe need to add on (https://github.com/xxjwxc/gormt/blob/master/data/view/cnf/def.go)", name))
+	panic(fmt.Sprintf("type (%v) not match in any way.maybe need to add on (https://github.com/hjd919/gormt/blob/master/data/view/cnf/def.go)", name))
 }
 
 // 过滤null point 类型

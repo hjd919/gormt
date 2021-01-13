@@ -198,7 +198,7 @@ github.com/ugorji/go v1.1.4/go.mod h1:uQMGLiO92mf5W77hV/PUCpI3pbzQx3CRekS0kk+RGr
 github.com/ugorji/go/codec v0.0.0-20181204163529-d75b2dcb6bc8/go.mod h1:VFNgLljTbGfSG7qAOspJ7OScBnGdDN/yBr0sguwnwf0=
 github.com/xiang90/probing v0.0.0-20190116061207-43a291ad63a2/go.mod h1:UETIi67q53MR2AWcXfiuqkDkRtnGDLqkBTpCHuJHxtU=
 github.com/xordataexchange/crypt v0.0.3-0.20170626215501-b2862e3d0a77/go.mod h1:aYKd//L2LvnjZzWKhF00oedf4jCCReLcmhLdhm1A27Q=
-github.com/xxjwxc/gormt v1.1.2/go.mod h1:9IzphAz9GIitx1A5ci5ni+twbAVVcUiP2KQa/kHPHd8=
+github.com/hjd919/gormt v1.1.2/go.mod h1:9IzphAz9GIitx1A5ci5ni+twbAVVcUiP2KQa/kHPHd8=
 github.com/xxjwxc/gowp v0.0.0-20200603130651-4d7368b0e285/go.mod h1:yJ/fY5BorWARfDDsxBU/MyQTHc5MVyNcqBQQYD6MN0k=
 github.com/xxjwxc/public v0.0.0-20200603115833-341beff27850/go.mod h1:fp3M+FEQrCgWD1fZ/PLwZkCTglf086OEhC9LcydAUnc=
 github.com/xxjwxc/public v0.0.0-20200603130802-6d8f40dd3f0d h1:z3oACUQzhFiJeCFjIoLPjityOddEK9xaOWlZxggUwHI=
